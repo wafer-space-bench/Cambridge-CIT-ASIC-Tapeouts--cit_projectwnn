@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/cit_projectwnn
+  original_url: https://github.com/cambridgeinstitutetechnology-blr-venkat/cit_project-2
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_wnn
+  project: 8-bit WNN Pattern Recognizer
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 4181dd9f6306e58f3577f79405b0e47f7e20aaab
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_wnn
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_wnn
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:21:30Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_wnn
+- upstream/main
